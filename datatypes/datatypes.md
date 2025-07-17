@@ -9,3 +9,14 @@
 - Tuple : (1,'spam',4,'U'), tuple('spam'), namedtuple
 
 - Dictionary : {'food':'spam', 'taste':'yum'},dict(hours=10)
+
+- Set : set('abc'),{'a','b','c'}
+
+- File:open('eggs.txt'), open(r'c:\ham.bin','wb')
+
+- Boolean :True,False
+- None : Nome
+
+- Function,modules,classes
+
+- Advance: Decorators, Generators,Iterators, metaProgramming
