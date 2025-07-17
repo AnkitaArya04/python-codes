@@ -5,3 +5,5 @@
 - String : 'spam',"Bob's", b'a\x01c, u'sp\xc4m'
 
 - List: [1,[2,'three'],4.5],list(range(10))
+
+- Tuple : (1,'spam',4,'U'), tuple('spam'), namedtuple
