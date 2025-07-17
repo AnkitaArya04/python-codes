@@ -4,4 +4,4 @@
 
 - String : 'spam',"Bob's", b'a\x01c, u'sp\xc4m'
 
-- List
+- List: [1,[2,'three'],4.5],list(range(10))
