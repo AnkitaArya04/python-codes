@@ -1,4 +1,4 @@
-age=25;
+age=2;
 
 if age<13:
     print("Child")
