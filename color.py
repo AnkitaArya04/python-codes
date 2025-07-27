@@ -1,10 +1,12 @@
-fruit = "Banana"
-color = "Yellow"
+fruit = "banana"
+color="yellow"
 
-if fruit == "Banana":
-    if color == "Green":
-        print("Unripe")
-    elif color == "Yellow":
-        print("Ripe")
-    elif color == "Brown":
-        print("OverRipe")
+if fruit == "banana":
+    if color=="green":
+        print("unripe")
+    elif color=="yellow":
+        print("ripe")
+    elif color=="brown":
+        print("overripe")
+else:
+    print("invalid")
