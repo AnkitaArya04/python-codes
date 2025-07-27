@@ -1,7 +1,7 @@
-input_str = "Python"
-reversed_str = ""
+input_string="Python"
+reversed_string=""
 
-for char in input_str:
-    reversed_str = char + reversed_str  
+for char in input_string:
+    reversed_string=char+reversed_string
 
-print(reversed_str)
+print(reversed_string)
