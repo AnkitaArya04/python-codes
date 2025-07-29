@@ -19,8 +19,8 @@ my_tesla=ElectricCar("Tesla","Model S","85kwh")
 print(my_tesla.chai_brand())
 
 
-my_car = Car("Toyota","Corolla")
-print(my_car.brand)
+# my_car = Car("Toyota","Corolla")
+# print(my_car.brand)
 # print(my_car.model)
 # print(my_car.full_name())
 
