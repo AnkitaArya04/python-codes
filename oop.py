@@ -32,17 +32,20 @@ class ElectricCar(Car):
     def fuel_type():
         return "electric charge"
 
-# my_tesla=ElectricCar("Tesla","Model S","85kwh")
+my_tesla=ElectricCar("Tesla","Model S","85kwh")
+print(isinstance(my_tesla,Car))
+print(isinstance(my_tesla,ElectricCar))
+
 # print(my_tesla.__brand)
 # print(my_tesla.fuel_type())
 
-my_car= Car("Tata","Safari")
+# my_car= Car("Tata","Safari")
 # my_car.model="City"
-Car("Tata","Nexon")
+# Car("Tata","Nexon")
 # print(safari.fuel_type())
 
 # print(my_car.general_description())
-print(my_car.model)
+# print(my_car.model)
 
 # print(Car.total_car)
 
