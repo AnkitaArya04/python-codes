@@ -1,6 +1,15 @@
 def list_all_videos(videos):
     pass
 
+def add_video(videos):
+    pass
+
+def update_video(videos):
+    pass
+
+def delete_video(videos):
+    pass
+videos=[]
 while True:
     print("\n Youtube Manager | choose an option")
     print("1. List all youtube videos")
@@ -14,4 +23,8 @@ while True:
         case '1':
             list_all_videos(videos)
         case '2':
-            add_video(video)
+            add_video(videos)
+        case '3':
+            update_video(videos)
+        case '4':
+            delete_video(videos)
