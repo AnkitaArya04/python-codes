@@ -28,3 +28,7 @@ while True:
             update_video(videos)
         case '4':
             delete_video(videos)
+        case '5':
+            break
+        case _:
+            print("Invalid choice")
