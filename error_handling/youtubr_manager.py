@@ -34,3 +34,6 @@ def main():
                 break
             case _:
                 print("Invalid choice")
+
+if __name__ == "__main__":
+    main()
