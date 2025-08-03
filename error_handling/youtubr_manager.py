@@ -2,7 +2,9 @@ import json
 def load_data():
     try:
         with open('youtube.txt','r') as file:
-            return json.load(file)
+            test=json.load(file)
+            print(type(test))
+            return test
     except FileNotFoundError:
             return []
 
@@ -35,6 +37,7 @@ def main():
         print("4. Delete a youtube video")
         print("5. Exit the app")
         choice=input("Enter your choice")
+        print(videos)
 
         match choice:
             case '1':
