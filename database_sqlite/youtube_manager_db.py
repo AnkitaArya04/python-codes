@@ -20,6 +20,9 @@ def add_video():
 
 def update_video():
     pass
+
+def delete_video():
+    pass
 def main():
     while True:
         print("\n Youtube manager app with DB")
@@ -41,6 +44,13 @@ def main():
             name= input("Enter the video name: ")
             time=input("Enter the video time: ")
             update_video(video_id,name,time)
+        elif choice=='4':
+            video_id=input("Enter video ID to update: ")
+            delete_video(video_id)
+        elif choice=='5':
+            break
+        else:
+            print("Invalid choice")
 
 if __name__ == "__main__":
     main()
