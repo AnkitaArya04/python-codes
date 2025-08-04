@@ -11,6 +11,15 @@ cursor.execute('''
             time TEXT NOT NULL   
             )
 ''')
+
+def list_videos():
+    pass
+
+def add_video():
+    pass
+
+def update_video():
+    pass
 def main():
     while True:
         print("\n Youtube manager app with DB")
@@ -19,6 +28,19 @@ def main():
         print("3. Update Videos")
         print("4. Delete Videos")
         print("5. Exit app")
+        choice=input("Enter your choice: ")
+
+        if choice == '1':
+            list_videos()
+        elif choice=='2':
+            name= input("Enter the video name: ")
+            time=input("Enter the video time: ")
+            add_video(name,time)
+        elif choice=='3':
+            video_id=input("Enter video ID to update: ")
+            name= input("Enter the video name: ")
+            time=input("Enter the video time: ")
+            update_video(video_id,name,time)
 
 if __name__ == "__main__":
     main()
