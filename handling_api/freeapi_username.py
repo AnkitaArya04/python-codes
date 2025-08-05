@@ -15,7 +15,8 @@ def fectch_random_user_freeapi():
     
 def main():
     try:
-        fectch_random_user_freeapi()
+        username, country = fectch_random_user_freeapi()
+        print(f"Username: {username} \nCountry:{country}")
     except Exception as e:
         print(str(e))
 
