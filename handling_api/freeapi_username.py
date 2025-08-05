@@ -14,7 +14,10 @@ def fectch_random_user_freeapi():
         raise Exception("Failed to fetch user data")
     
 def main():
-    
+    try:
+        fectch_random_user_freeapi()
+    except Exception as e:
+        print(str(e))
 
 if __name__=="__main__":
     main()
