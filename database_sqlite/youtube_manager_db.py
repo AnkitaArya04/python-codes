@@ -24,8 +24,9 @@ def add_video(name,time):
 def update_video(video_id,new_name,new_time):
     cursor.execute("UPDATE videos SET name=?, time=? WHERE id=?",(new_name,new_time,video_id))
     cursor.commit()
-def delete_video():
-    pass
+def delete_video(video_id):
+    cursor.execute("EXECUTE FROM videos where id=?", (video_id,))
+    cursor.commit()
 def main():
     while True:
         print("\n Youtube manager app with DB")
